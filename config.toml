@@ -25,13 +25,15 @@ buildExpired = false
 canonifyURLs = true
 
 enableRobotsTXT = true
-enableGitInfo   = false
+enableGitInfo   = true
 enableEmoji     = true
 enableMissingTranslationPlaceholders = false
-disableRSS     = false
-disableSitemap = false
-disable404     = false
+disableRSS     = true
+disableSitemap = true
+disable404     = true
 disableHugoGeneratorInject = false
+
+disableKinds = ["taxonomy", "taxonomyTerm", "taxonomies"]
 
 [author]
   name = "usb"
@@ -39,10 +41,10 @@ disableHugoGeneratorInject = false
 [blackfriday]
   hrefTargetBlank = true
 
-[taxonomies]
-  tag      = "tags"
-  category = "categories"
-  series   = "series"
+#[taxonomies]
+# tag      = "tags"
+# category = "categories"
+# series   = "series"
 
 [params]
   dateform        = "Jan 2, 2006"
@@ -52,9 +54,9 @@ disableHugoGeneratorInject = false
 
   # Metadata mostly used in document's head
   # 
-  description = "description placeholder"
-  keywords = ""
-  images = [""]
+  description = " "
+  keywords = " "
+  images = ["https://g.usbwire.net/2021/01/%F0%9F%A5%84%F0%9F%A5%BA%F0%9F%9B%81%F0%9F%90%8D%F0%9F%A7%B6-2.png"]
 
   homeSubtitle = "This is a pretty nice theme"
 
@@ -63,7 +65,7 @@ disableHugoGeneratorInject = false
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
   #
-  # gitUrl = ""
+    gitUrl = "https://github.com/U5B/usbwire-friend/commit/"
 
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
   #
@@ -156,8 +158,8 @@ disableHugoGeneratorInject = false
 
 [languages]
   [languages.en]
-    title     = "usbwire"
-	subtitle  = "cool header"
+    title     = "usb"
+	subtitle  = "woah"
     weight    = 1
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
