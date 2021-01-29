@@ -30,10 +30,10 @@ enableEmoji     = true
 enableMissingTranslationPlaceholders = false
 disableRSS     = true
 disableSitemap = true
-disable404     = true
+disable404     = false
 disableHugoGeneratorInject = false
 
-disableKinds = ["taxonomy", "taxonomyTerm", "taxonomies"]
+disableKinds = ["taxonomy", "taxonomyTerm", "taxonomies", "RSS", "sitemap"]
 
 [author]
   name = "usb"
