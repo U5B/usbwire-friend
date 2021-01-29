@@ -7,4 +7,4 @@ aliases = ["about-us","contact"]
 +++
 
 Sample Text
-uwu
+Speaking of which, my old website was Hugo-Compose theme and new website is Hugo-HelloFriendNG
