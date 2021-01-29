@@ -12,28 +12,28 @@ other = "Also available in"
 
 # 404.html
 #
-[archives]
-other = "Archives"
+#[archives]
+#other = "Archives"
 
 [home]
 other = "Home"
 
 [notFound]
-other = "Oops, page not found…"
+other = "Page or redirect not found."
 
 
 # posts/single.html
 #
-[readingTime]
-one   = "One minute"
-other = "{{ .Count }} minutes"
+#[readingTime]
+#one   = "One minute"
+#other = "{{ .Count }} minutes"
 
-[tableOfContents]
-other = "Table of Contents"
+#[tableOfContents]
+#other = "Table of Contents"
 
-[wordCount]
-one   = "One Word"
-other = "{{ .Count }} Words"
+#[wordCount]
+#one   = "One Word"
+#other = "{{ .Count }} Words"
 
-[lastModified]
-other = "Last updated"
+#[lastModified]
+#other = "Last updated"
