@@ -59,7 +59,7 @@ disableHugoGeneratorInject = false
   homeSubtitle = "This is a pretty nice theme"
 
    # Set a background for the homepage
-   # backgroundImage = "https://g.usbwire.net/2021/01/%F0%9F%93%87%F0%9F%92%B6%F0%9F%94%AE-29.png"
+     backgroundImage = "https://g.usbwire.net/2021/01/%F0%9F%A5%84%F0%9F%A5%BA%F0%9F%9B%81%F0%9F%90%8D%F0%9F%A7%B6-2.png"
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
   #
